@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+h1, h2{
+  text-align: center;
+  color: white;
+  padding: 10rem;
+  margin-top: 10rem;
+}
+
 body {
   font-family: 'montserratt', sans-serif;
 }
@@ -11,7 +18,7 @@ body {
 .App {
   background-image: url('./assests/cold-bg.jpg');
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
   transition: 0.4s ease-out;
 }
 
@@ -26,7 +33,7 @@ main {
 }
 
 .search-box {
-  width: 100%;
+  width: 80%;
   margin: 0 0 75px;
 }
 
@@ -37,7 +44,7 @@ main {
 
   appearance: none;
   background: none;
-  border: none;
+  border: solid 1px black;
   outline: none;
 
   background-color: rgba(255, 255, 255, 0.5);
@@ -53,11 +60,11 @@ main {
 }
 
 .search-box .search-bar:focus {
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(168, 255, 160, 0.75);
 }
 
 .location-box .location {
-  color: #FFF;
+  color: rgb(255, 255, 255);
   font-size: 32px;
   font-weight: 500;
   text-align: center;
