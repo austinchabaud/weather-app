@@ -56,6 +56,8 @@ function App() {
             </div>
           </div>
         ) : ('')}
+      
+      <h2>Created by <a href="https://www.austinchabaud.com" target="_blank" rel="noopener noreferrer">Austin Chabaud</a></h2>
       </main>
     </div>
   );
